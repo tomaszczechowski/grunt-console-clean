@@ -1,0 +1,31 @@
+{
+  "name": "grunt-console-clean",
+  "version": "0.1.0",
+  "description": "Plugin for grunt to clean up code from console object",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomaszczechowski/grunt-console-clean.git"
+  },
+  "keywords": [
+    "grunt",
+    "console.log",
+    "console",
+    "clean",
+    "console.log",
+    "clean",
+    "console",
+    "grunt",
+    "clean",
+    "console.log"
+  ],
+  "author": "Tomasz Czechowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomaszczechowski/grunt-console-clean/issues"
+  },
+  "homepage": "https://github.com/tomaszczechowski/grunt-console-clean"
+}
