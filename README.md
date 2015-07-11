@@ -1,7 +1,9 @@
 # grunt-console-clean
+
 [![NPM][grunt-console-clean-icon]][grunt-console-clean-url]
+
+[![Build Status][grunt-clean-console-ci-image]][grunt-clean-console-ci-url]
 [![devdependencies][grunt-console-clean-devdependencies-image]][grunt-console-clean-devdependencies-url]
-[![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-console-clean.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-console-clean)
 
 Grunt plugin to clean up code from console object. All meet object are commented out e.g. `/*console.log('test');*/`
 
@@ -81,3 +83,9 @@ Task submitted by [Tomasz Czechowski](http://czechowski.pl/)
 
 *This file was generated on Sat July 11 2015 12:47:00.*
 
+[grunt-console-clean-icon]: https://nodei.co/npm/grunt-console-clean.png?downloads=true
+[grunt-console-clean-url]: https://npmjs.org/package/grunt-console-clean
+[grunt-clean-console-ci-image]: https://secure.travis-ci.org/tomaszczechowski/grunt-console-clean.png?branch=master
+[grunt-clean-console-ci-url]: http://travis-ci.org/tomaszczechowski/grunt-console-clean
+[grunt-console-clean-devdependencies-image]: https://david-dm.org/tomaszczechowski/grunt-console-clean/dev-status.png
+[grunt-console-clean-devdependencies-url]: https://david-dm.org/tomaszczechowski/grunt-console-clean#info=devDependencies
