@@ -1,6 +1,6 @@
 # grunt-console-clean [![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-console-clean.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-console-clean)
 
-Grunt plugin to clean up code from console object
+Grunt plugin to clean up code from console object. All meet object are commented out e.g. "/*console.log('test');*/"
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
@@ -19,16 +19,14 @@ grunt.loadNpmTasks('grunt-console-clean');
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.2](https://github.com/outaTiME/grunt-replace/tree/grunt-0.3-stable).*
 
-## Replacer Task
-
-_Run this task with the `grunt replacer` command._
+## Console clean
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
 ### Options
 
 ##### variables
-Name: all0ows
+Name: allows
 Type: `array`
 
 This option is used to determine "console" object to be unchanged.
@@ -41,7 +39,9 @@ options : {
 
 ### Usage Examples
 
-#### Replace all console objects
+#### Comment all console objects
+
+_Run this task with the `grunt console-clean:all` command._
 
 ```js
 all: {
@@ -52,6 +52,8 @@ all: {
 ```
 
 #### Leave "console.warn" objects
+
+_Run this task with the `grunt console-clean:keepWarn` command._
 
 ```js
 keepWarn: {
