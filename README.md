@@ -75,6 +75,7 @@ keepWarn: {
 
 ## Release History
 
+ * 2015-07-11   v0.1.1   Updated dev dependencies.
  * 2015-07-11   v0.1.0   First version of plugin.
 
 ---
