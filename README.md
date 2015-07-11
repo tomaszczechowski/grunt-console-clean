@@ -1,4 +1,7 @@
-# grunt-console-clean [![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-console-clean.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-console-clean)
+# grunt-console-clean
+[![NPM][grunt-console-clean-icon]][grunt-console-clean-url]
+[![devdependencies][grunt-console-clean-devdependencies-image]][grunt-console-clean-devdependencies-url]
+[![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-console-clean.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-console-clean)
 
 Grunt plugin to clean up code from console object. All meet object are commented out e.g. `/*console.log('test');*/`
 
