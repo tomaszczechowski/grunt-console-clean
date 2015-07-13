@@ -32,9 +32,14 @@ module.exports = function (grunt) {
                 !options.hasOwnProperty('allows') ||
                 ('allows' in options && options.allows.indexOf(m[1]) === -1)
               ){
+
+                var to = options.hasOwnProperty('strategy')
+                  ? options.strategy(m[0])
+                  : '/*' + m[0] + '*/';
+
                 replace.push({
                   from: m[0],
-                  to: '/*' + m[0] + '*/'
+                  to: to
                 });
               }
             }

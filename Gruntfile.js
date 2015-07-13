@@ -34,6 +34,16 @@ module.exports = function (grunt) {
           { src: ['test/test3/replace.js'], dest: 'test/test3/dist/replace.js' }
         ]
       },
+      test4: {
+        options: {
+          strategy: function (content) {
+            return '//' + content;
+          }
+        },
+        files : [
+          { src: ['test/test4/replace.js'], dest: 'test/test4/dist/replace.js' }
+        ]
+      }
     },
 
     jshint: {
@@ -51,6 +61,7 @@ module.exports = function (grunt) {
       test1: ['test/test1/test.js'],
       test2: ['test/test2/test.js'],
       test3: ['test/test3/test.js'],
+      test4: ['test/test4/test.js']
     },
 
     clean: {
@@ -69,7 +80,8 @@ module.exports = function (grunt) {
   grunt.registerTask('test-1', ['clean', 'console-clean:test1', 'nodeunit:test1']);
   grunt.registerTask('test-2', ['clean', 'console-clean:test2', 'nodeunit:test2']);
   grunt.registerTask('test-3', ['clean', 'console-clean:test3', 'nodeunit:test3']);
+  grunt.registerTask('test-4', ['clean', 'console-clean:test4', 'nodeunit:test4']);
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'test-1', 'test-2', 'test-3']);
+  grunt.registerTask('default', ['jshint', 'test-1', 'test-2', 'test-3', 'test-4']);
 };
