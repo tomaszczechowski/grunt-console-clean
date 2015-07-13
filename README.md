@@ -48,7 +48,7 @@ options : {
 Name: **strategy**
 Type: **`function`**
 
-This option is used to modify/comment-out found console object. It allows to change strategy of commeting from "/**/" to e.g. "//"
+This option is used to modify/comment-out found console object. It allows to change strategy of commeting from "/**/" to e.g. "//".
 
 ```javascript
 options : {
