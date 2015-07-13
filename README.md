@@ -40,7 +40,20 @@ This option is used to determine "console" object to be unchanged.
 
 ```javascript
 options : {
-    allows: ["log", "warn"]
+   allows: ["log", "warn"]
+}
+```
+
+Name: strategy
+Type: `function`
+
+This option is used to modify/comment-out found console object. It allows to change strategy of commeting from "/**/" to e.g. "//"
+
+```javascript
+options : {
+  strategy: function (content) {
+  	return '//' + content;
+  }
 }
 ```
 
