@@ -34,8 +34,8 @@ Task targets, files and options may be specified according to the grunt [Configu
 
 #### variables
 
-*Name: allows
-Type: `array`*
+**Name: allows
+Type: `array`**
 
 This option is used to determine "console" object to be unchanged.
 
@@ -45,8 +45,8 @@ options : {
 }
 ```
 
-*Name: strategy
-Type: `function`*
+**Name: strategy
+Type: `function`**
 
 This option is used to modify/comment-out found console object. It allows to change strategy of commeting from "/**/" to e.g. "//"
 
