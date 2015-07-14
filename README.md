@@ -88,7 +88,8 @@ keepWarn: {
 ```
 
 ## Release History
-
+ * 2015-07-14   v0.3.0   Added cleaning objects "window.console".
+ * 2015-07-13   v0.2.1   Added "strategy" option.
  * 2015-07-11   v0.1.1   Updated dev dependencies.
  * 2015-07-11   v0.1.0   First version of plugin.
 

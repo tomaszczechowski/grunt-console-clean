@@ -19,7 +19,7 @@ module.exports = function (grunt) {
       filePair.src.forEach(function (src) {
         grunt.file.copy(src, filePair.dest, {
           process: function (content) {
-            var regex = /console.([a-zA-Z]+)\([^;]*\);/g;
+            var regex = /(window\.)?console.([a-zA-Z]+)\([^;]*\);/g;
             var m, i = 0, replace = [];
 
             while ((m = regex.exec(content)) !== null) {
