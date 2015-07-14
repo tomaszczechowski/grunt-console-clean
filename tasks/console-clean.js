@@ -28,9 +28,9 @@ module.exports = function (grunt) {
                   regex.lastIndex++;
               }
 
-             if (
+              if (
                 !options.hasOwnProperty('allows') ||
-                ('allows' in options && options.allows.indexOf(m[1]) === -1)
+                ('allows' in options && options.allows.indexOf(m[2]) === -1)
               ){
 
                 var to = options.hasOwnProperty('strategy')
