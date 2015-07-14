@@ -88,6 +88,7 @@ keepWarn: {
 ```
 
 ## Release History
+ * 2015-07-14   v0.3.2   Updated keywords.
  * 2015-07-14   v0.3.1   Fixed bug with "allows" option.
  * 2015-07-14   v0.3.0   Added cleaning objects "window.console".
  * 2015-07-13   v0.2.1   Added "strategy" option.
