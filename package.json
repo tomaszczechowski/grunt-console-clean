@@ -20,6 +20,9 @@
     }
   ],
   "keywords": [
+    "remove console object",
+    "remove window.console",
+    "clean code console.log",
     "grunt console clean",
     "clean console grunt",
     "clean console.log object",
