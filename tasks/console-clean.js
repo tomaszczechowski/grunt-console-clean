@@ -1,5 +1,5 @@
 /*
- * Grunt Replacer
+ * Grunt Console Clean
  * https://github.com/tomaszczechowski/grunt-console-clean
  *
  * Copyright (c) 2013 Tomasz Czechowski
@@ -23,7 +23,6 @@ module.exports = function (grunt) {
             var m, i = 0, replace = [];
 
             while ((m = regex.exec(content)) !== null) {
-
               if (m.index === regex.lastIndex) {
                   regex.lastIndex++;
               }
@@ -32,7 +31,6 @@ module.exports = function (grunt) {
                 !options.hasOwnProperty('allows') ||
                 ('allows' in options && options.allows.indexOf(m[2]) === -1)
               ){
-
                 var to = options.hasOwnProperty('strategy')
                   ? options.strategy(m[0])
                   : '/*' + m[0] + '*/';
@@ -43,7 +41,6 @@ module.exports = function (grunt) {
                 });
               }
             }
-
             replace.forEach(function (item) {
               content = content.replace(item.from, item.to);
               grunt.log.writeln('Replaced from ' + item.from.green + ' to ' + item.to.green);

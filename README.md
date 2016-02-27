@@ -88,6 +88,7 @@ keepWarn: {
 ```
 
 ## Release History
+ * 2016-02-27   v0.3.4   Fixed error with files which cannot be processed.
  * 2016-02-27   v0.3.3   Updated node dependencies.
  * 2015-07-14   v0.3.2   Updated keywords.
  * 2015-07-14   v0.3.1   Fixed bug with "allows" option.
