@@ -1,6 +1,6 @@
 {
   "name": "grunt-console-clean",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Plugin for grunt to clean up code from console object",
   "author": "Tomasz Czechowski",
   "scripts": {
